@@ -98,7 +98,7 @@ Cloudflare DNS → Add CNAME `highline → thanhpham-create.github.io`.
 
 Skip web/ entirely. Trong Cloudflare:
 - DNS → A record `highline → 192.0.2.1` (dummy, proxied)
-- Page Rules → URL: `highline.penwin.vn/*` → Forwarding URL 301 → `https://highlinefc.substack.com/$1`
+- Page Rules → URL: `highline.penwin.vn/*` → Forwarding URL 301 → `https://highlineasia.substack.com/$1`
 
 **Trade-off:** Không có landing page, anh mất chance build brand. Khuyến nghị Option A.
 
@@ -106,7 +106,7 @@ Skip web/ entirely. Trong Cloudflare:
 
 Sau khi anh có 5-10 bài Substack, có thể thêm "Latest posts" section vào index.html bằng cách:
 
-1. Substack có RSS feed: `https://highlinefc.substack.com/feed`
+1. Substack có RSS feed: `https://highlineasia.substack.com/feed`
 2. JavaScript fetch RSS → parse → render 3-5 latest posts
 3. Hoặc static — copy paste 3 latest links thủ công weekly
 
